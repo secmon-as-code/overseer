@@ -1,5 +1,5 @@
 package types
 
 const (
-	AppVersion = "(unknown)"
+	AppVersion = "(dev)"
 )

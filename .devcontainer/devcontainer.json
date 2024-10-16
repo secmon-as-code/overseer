@@ -1,0 +1,12 @@
+{
+  "name": "main-dev-image",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:1-jammy",
+  "features": {
+    "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
